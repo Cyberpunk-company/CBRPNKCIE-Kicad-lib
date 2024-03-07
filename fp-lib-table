@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CYBERPUNK_COMPANY_LIB")(type "KiCad")(uri "${KIPRJMOD}/CYBERPUNK_COMPANY_LIB.pretty")(options "")(descr ""))
+)
