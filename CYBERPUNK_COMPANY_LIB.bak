@@ -2,6 +2,402 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "3.3V_ESP"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_ESP"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.2019 2.6221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 3.2019 2.6221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 3.2019 2.6221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "3.3V_ESP_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy 0 2.54) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "3.3V_ESP_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 2.54) hide
+				(name "3.3V_ESP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "3.3V_FZ"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_FZ"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "3.3V_FZ_0_1"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy 0 2.54) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "3.3V_FZ_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 2.54) hide
+				(name "3.3V_FZ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "5V_FZ"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_FZ"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "5V_FZ_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy 0 2.54) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "5V_FZ_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 2.54) hide
+				(name "5V_FZ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "5V_USB"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_USB"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "5V_USB_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy 0 2.54) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "5V_USB_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 2.54) hide
+				(name "5V_USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "FLIPPER_ZERO_HEADER"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15,7 +411,7 @@
 			)
 		)
 		(property "Value" "FLIPPER ZERO"
-			(at 3.81 -10.16 0)
+			(at 5.08 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +419,7 @@
 			)
 		)
 		(property "Footprint" "CYBERPUNK_COMPANY_LIB:FLIPPER_ZERO_HEADER"
-			(at 3.81 -10.16 0)
+			(at 3.81 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +428,7 @@
 			)
 		)
 		(property "Datasheet" "https://github.com/flipperdevices/"
-			(at 3.81 -12.7 0)
+			(at 3.81 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +446,7 @@
 			)
 		)
 		(property "BY" "https://cyberpunk.company/tixlegeek"
-			(at 3.81 -15.24 0)
+			(at 3.81 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,8 +456,8 @@
 		)
 		(symbol "FLIPPER_ZERO_HEADER_1_1"
 			(rectangle
-				(start -22.86 0)
-				(end 15.24 -6.35)
+				(start -22.86 -3.81)
+				(end 15.24 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -72,7 +468,7 @@
 			)
 			(polyline
 				(pts
-					(xy -24.13 1.27) (xy -30.48 -5.08) (xy -26.67 -8.89) (xy 33.02 -8.89) (xy 33.02 -2.54) (xy 29.21 1.27)
+					(xy -24.13 1.27) (xy -30.48 -7.62) (xy -26.67 -12.7) (xy 33.02 -12.7) (xy 33.02 -3.81) (xy 29.21 1.27)
 					(xy -24.13 1.27)
 				)
 				(stroke
@@ -80,11 +476,11 @@
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(circle
-				(center 21.59 -3.81)
+				(center 21.59 -6.35)
 				(radius 3.5921)
 				(stroke
 					(width 0)
@@ -95,7 +491,7 @@
 				)
 			)
 			(circle
-				(center 26.67 -6.35)
+				(center 26.67 -8.89)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -106,7 +502,7 @@
 				)
 			)
 			(text "FLIPPER ZERO HEADER"
-				(at -2.54 -3.81 0)
+				(at -2.54 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -115,7 +511,7 @@
 				)
 			)
 			(pin output line
-				(at -21.59 1.27 90)
+				(at -21.59 3.81 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -133,7 +529,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 1.27 90)
+				(at 6.35 3.81 270)
 				(length 2.54)
 				(name "SWC"
 					(effects
@@ -151,7 +547,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 1.27 90)
+				(at 8.89 3.81 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -169,7 +565,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 1.27 90)
+				(at 11.43 3.81 270)
 				(length 2.54)
 				(name "SIO"
 					(effects
@@ -187,7 +583,7 @@
 				)
 			)
 			(pin output line
-				(at 13.97 1.27 90)
+				(at 13.97 3.81 270)
 				(length 2.54)
 				(name "TX"
 					(effects
@@ -205,7 +601,7 @@
 				)
 			)
 			(pin input line
-				(at 16.51 1.27 90)
+				(at 16.51 3.81 270)
 				(length 2.54)
 				(name "RX"
 					(effects
@@ -223,7 +619,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 1.27 90)
+				(at 21.59 3.81 270)
 				(length 2.54)
 				(name "C0"
 					(effects
@@ -241,7 +637,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 1.27 90)
+				(at 19.05 3.81 270)
 				(length 2.54)
 				(name "C1"
 					(effects
@@ -259,7 +655,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 1.27 90)
+				(at 24.13 3.81 270)
 				(length 2.54)
 				(name "1W"
 					(effects
@@ -277,7 +673,7 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 1.27 90)
+				(at 26.67 3.81 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -295,7 +691,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 1.27 90)
+				(at -19.05 3.81 270)
 				(length 2.54)
 				(name "A7"
 					(effects
@@ -313,7 +709,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 1.27 90)
+				(at -16.51 3.81 270)
 				(length 2.54)
 				(name "A6"
 					(effects
@@ -331,7 +727,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 1.27 90)
+				(at -13.97 3.81 270)
 				(length 2.54)
 				(name "A4"
 					(effects
@@ -349,7 +745,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 1.27 90)
+				(at -11.43 3.81 270)
 				(length 2.54)
 				(name "B3"
 					(effects
@@ -367,7 +763,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 1.27 90)
+				(at -8.89 3.81 270)
 				(length 2.54)
 				(name "B2"
 					(effects
@@ -385,7 +781,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 1.27 90)
+				(at -6.35 3.81 270)
 				(length 2.54)
 				(name "C3"
 					(effects
@@ -403,7 +799,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 1.27 90)
+				(at -3.81 3.81 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -421,7 +817,7 @@
 				)
 			)
 			(pin output line
-				(at 3.81 1.27 90)
+				(at 3.81 3.81 270)
 				(length 2.54)
 				(name "3.3V"
 					(effects
@@ -727,6 +1123,158 @@
 			)
 		)
 	)
+	(symbol "SK6805_EC15"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SK"
+			(at 2.54 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805EC15"
+			(at 5.715 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CYBERPUNK_COMPANY_LIB:SK6805SIDE-D"
+			(at 12.7 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/202003/SK6805-EC15%20LED%20Datasheet.pdf"
+			(at 1.27 -6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BY" "https://cyberpunk.company/tixlegeek"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" " C2890035"
+			(at 3.81 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SK6805_EC15_0_1"
+			(rectangle
+				(start -2.54 2.54)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SK6805_EC15_1_1"
+			(pin output line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name "DO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -1.27 5.08 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "DI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "SK6805_SIDE_G"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -862,6 +1410,119 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "VD"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 1.27 0) (xy 1.2678 -0.4198)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -1.27 -1.27) (xy 1.27 -1.27) (xy 0 0) (xy -1.27 1.27) (xy 1.27 1.27) (xy 0 0) (xy -1.27 0)
+					(xy -1.2678 0.4198)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS_1_1"
+			(pin unspecified line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
