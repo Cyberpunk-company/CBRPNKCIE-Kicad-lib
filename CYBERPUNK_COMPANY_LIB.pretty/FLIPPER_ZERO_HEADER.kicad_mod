@@ -19,7 +19,7 @@
 		)
 	)
 	(property "Value" "FLIPPER_ZERO_HEADER"
-		(at 29.526427 0.800867 0)
+		(at 28.486427 -5.699133 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a1e403cf-5d44-46f0-b74e-35edf9671e1b")
@@ -28805,18 +28805,8 @@
 		(uuid "cfa3283a-0154-405a-8250-6ee8119a42ad")
 	)
 	(fp_line
-		(start 63.5 0)
-		(end 0 0)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "eb204af3-966f-40f6-b470-f51154c506fd")
-	)
-	(fp_line
-		(start 66.04 0)
-		(end -2.54 0)
+		(start 65.79 0)
+		(end -2.79 0)
 		(stroke
 			(width 0.1)
 			(type default)
